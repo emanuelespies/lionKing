@@ -130,8 +130,7 @@ module.exports = function(grunt) {
 		  dev: {
 			options: {
 			  style: '',
-			  banner: '<%= tag.banner %>',
-			  compass: true
+			  banner: '<%= tag.banner %>'
 			},
 			files: {
 			  '<%= project.src %>/dev/css/style.css': '<%= project.css %>'
@@ -140,8 +139,7 @@ module.exports = function(grunt) {
 		  devIe: {
 			options: {
 			  style: '',
-			  banner: '<%= tag.banner %>',
-			  compass: true
+			  banner: '<%= tag.banner %>'
 			},
 			files: {
 			  '<%= projectIe.src %>/dev/css/ie.css': '<%= projectIe.css %>'
